@@ -1,15 +1,43 @@
 # Calculator
 
-I am excited to share my recent project, a fully functional calculator that I have built using ReactJS and CSS.
+#### Table of Contents 
+- [Description](#desc)
+- [Usage Guide](#inst)
+  * [Installation](#inst1)
+  * [Calculator Demonstration](#demo)
+- [Contributors](#cont)
+- [License](#lics)
 
-One of the main focuses of this project was to make the calculator visually appealing. By using CSS, I was able to create a professional and polished look, elevating the overall aesthetic of the application. The attention to detail in the design, from layout to color scheme, greatly enhances the user experience. It made the calculator stand out from others, not only functional but also an attractive tool to use.
+<a name="desc"></a>
+## Description
+The above code comprises of a fully functional calculator, built mainly using ReactJS and CSS.
 
-The combination of React's modularity and CSS's styling capabilities has resulted in an accurate and responsive calculator. This project showcases the impressive capabilities of ReactJS and CSS in creating a visually appealing, functional, and user-friendly web application. I am extremely satisfied with the final outcome and ready to take on more challenging projects.
+One of the main focuses of this project was to make the calculator visually appealing. Utilizing CSS creates a professional and polished look, elevating the overall aesthetic of the application. The attention to detail in the design, from layout to color scheme, greatly enhances the user experience, making the calculator stand out from others.
 
+The combination of React's modularity and CSS's styling capabilities has resulted in an accurate and responsive calculator. This project showcases the impressive capabilities of ReactJS and CSS in creating a visually appealing, functional, and user-friendly web application.
 
-<video width="320" height="240" controls>
-  <source src="https://user-images.githubusercontent.com/114048139/211927230-c1abf62a-4a71-42ca-a398-4afda914f2fa.mp4" type="video/mp4">
-</video>
+<a name="inst"></a>
+## Usage Guide
+<a name="inst1"></a>
+### Installation
+1. Requirements: 
+- NPM version 8.19.3
+- React version 18+
 
+2. Run below lines in your terminal
+<br><code>cd ../calculator</code><br><br><code>npm run start</code>
 
+<a name="demo"></a>
+### Calculator Demonstration
 
+![][calcDemo]
+
+<a name="cont"></a>
+## Contributors
+- Michael Haddad : mhadd033@uottawa.ca
+
+<a name="lics"></a>
+## License
+This project is licensed under the GPL-3.0 License. [License Details](../master/LICENSE.md)
+
+[calcDemo]: ./public/calcTEST.gif
