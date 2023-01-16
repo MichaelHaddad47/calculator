@@ -40,4 +40,4 @@ The combination of React's modularity and CSS's styling capabilities has resulte
 ## License
 This project is licensed under the GPL-3.0 License. [License Details](../master/LICENSE.md)
 
-[calcDemo]: ./public/calcTEST.gif
+[calcDemo]: ./calcTEST.gif
