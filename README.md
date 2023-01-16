@@ -10,11 +10,11 @@
 
 <a name="desc"></a>
 ## Description
-The above code comprises of a fully functional calculator, built mainly using ReactJS and CSS.
+The above code comprises of a fully functional calculator, built mainly using React and CSS.
 
 One of the main focuses of this project was to make the calculator visually appealing. Utilizing CSS creates a professional and polished look, elevating the overall aesthetic of the application. The attention to detail in the design, from layout to color scheme, greatly enhances the user experience, making the calculator stand out from others.
 
-The combination of React's modularity and CSS's styling capabilities has resulted in an accurate and responsive calculator. This project showcases the impressive capabilities of ReactJS and CSS in creating a visually appealing, functional, and user-friendly web application.
+The combination of React's modularity and CSS's styling capabilities has resulted in an accurate and responsive calculator. This project showcases the impressive capabilities of React and CSS in creating a visually appealing, functional, and user-friendly web application.
 
 <a name="inst"></a>
 ## Usage Guide
