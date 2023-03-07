@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background: linear-gradient(to right, #00AAFF, #ec3d3d)
+    background-image: linear-gradient(to right, #e9fffe, #d2fffd, #b8fffc, #9cfffb, #7afff9);
 }
 
 .calculator-grid {
@@ -20,7 +20,8 @@ body {
     font-size: 1.5rem;
     border : 1px solid white;
     outline: none;
-    background-color: rgba(61, 139, 91, 0.75);
+    background-color: #7EFFE3;
+    border : 1px solid #000000;
 }
 
 .span-two {
