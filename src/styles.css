@@ -20,8 +20,14 @@ body {
     cursor : pointer;
     font-size: 1.5rem;
     outline: none;
-    background-color: rgba(61, 139, 91, 0.75);
+    background-color: rgba(127, 195, 255, 0.802);
+    border: 1px solid rgba(0, 0, 0);
+    border-radius: 2px;
 }
+
+.calculator-grid > button:hover {
+    background: rgb(255, 255, 255, 0.7);
+  }
 
 .span-two {
     grid-column: span 2;
@@ -50,3 +56,13 @@ body {
     color: white;
     font-size: 2.5rem;
 }
+
+.name {
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    color: #ffdb87;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+  }
