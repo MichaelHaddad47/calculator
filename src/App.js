@@ -21,7 +21,12 @@ const reducer = (state, {type, payload}) => {
           overwrite: false
         }
       }
-
+      if (payload.digit === "." && state.currentOperand == null) {
+        return {
+          ...state,
+          currentOperand: "0."
+        }
+      }
       if (payload.digit === "0" && state.currentOperand === "0") {
         return state
       }
@@ -101,8 +106,11 @@ const reducer = (state, {type, payload}) => {
 const evaluate = ({currentOperand, previousOperand, operation}) => {
   const prev = parseFloat(previousOperand)
   const current = parseFloat(currentOperand)
+
   if (isNaN(prev) || isNaN(current)) return ""
+
   let computation = ""
+
   switch (operation) {
     case "+":
       computation = prev + current
@@ -113,7 +121,10 @@ const evaluate = ({currentOperand, previousOperand, operation}) => {
     case "*":
       computation = prev * current
       break
-    case "÷":
+    case "/":
+      if (current === 0) {
+        return "Error"
+      }
       computation = prev / current
       break
     default:
@@ -141,7 +152,7 @@ const App = () => {
       </div>
       <button className="span-two" onClick ={() => dispatch({type: ACTIONS.CLEAR})}>CLEAR</button>
       <button onClick ={() => dispatch({type: ACTIONS.DELETE_DIGIT})}>DEL</button>
-      <OperationButton operation="÷" dispatch={dispatch}/>
+      <OperationButton operation="/" dispatch={dispatch}/>
       <DigitButton digit="1" dispatch={dispatch}/>
       <DigitButton digit="2" dispatch={dispatch}/>
       <DigitButton digit="3" dispatch={dispatch}/>
